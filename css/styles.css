@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: gainsboro;
+  padding: 24px;
+}
+
+article {
+  background-color: white;
+  border-radius: 12px;
+  padding: 24px;
+  font-family: sans-serif;
+  line-height: 0.9em;
+}
+
+article img {
+  border-radius: 12px;
+  padding-bottom: 12px;
+}
+
+article h2 {
+  text-transform: uppercase;
+  font-size: 1.2em;
+}
+
+article p {
+}
+
+article :nth-child(4) {
+  color: dimgrey;
+  font-size: 0.9em;
+}
+
+article button {
+  background-color: white;
+  border: none;
+  color: rgb(85, 145, 255);
+  padding: 0px;
+}
