@@ -116,28 +116,34 @@ body {
 
 @media screen and (min-width: 600px) {
   body {
-    background-color: #253b40;
+    background-color: var(--forest-green);
+    max-width: 1200px;
+    margin: 0px auto;
   }
   .main-header {
     z-index: 99;
     background-color: rgba(37, 59, 64, 0.9);
+    max-width: 1200px;
   }
 
   .main-header .header-brand {
     padding-bottom: 5px;
+    max-width: 1200px;
   }
 
   .main-header .header-text {
     color: var(--forest-green);
     margin-bottom: -75px;
     font-weight: bold;
-    width: 50%;
+    width: 40%;
+    max-width: 200px;
   }
 
   nav.navbar {
     justify-content: flex-end;
     gap: var(--gap);
     top: 114px;
+    max-width: 1200px;
   }
 
   nav.navbar .navbar-link {
@@ -162,12 +168,12 @@ body {
   }
 
   article.product-card {
-    width: 49%;
+    width: 48%;
     height: 30vh;
   }
 
   p.intro-text {
-    width: 49%;
+    width: 48%;
     height: 30vh;
     font-size: var(--header-text);
     padding: 24px;
@@ -175,7 +181,7 @@ body {
 
   article.product-card:first-child,
   article.product-card:nth-child(4) {
-    width: 100%;
+    width: 98%;
     height: 60vh;
   }
 }
